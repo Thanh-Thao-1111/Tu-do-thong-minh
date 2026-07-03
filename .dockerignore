@@ -1,0 +1,31 @@
+# Build outputs
+build/
+.dart_tool/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+*.swp
+
+# Git
+.git/
+.gitignore
+
+# Android/iOS (not needed for web build in some cases, but Flutter needs them)
+# Don't ignore android/ and ios/ as Flutter may reference them
+
+# CI/CD and docs
+.claude/
+.agents/
+*.md
+
+# Misc
+.pub-cache/
+.pub/
+coverage/
